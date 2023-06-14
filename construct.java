@@ -8,13 +8,12 @@ class Employee{
         System.out.println("my name is "+name+" and my id is "+id);
     }
 
-    //    Constructor overloaded
+    //Constructor overloaded
     Employee(String s, int i, int salary){
         System.out.println("The name of the second employee is : " + s);
         System.out.println("The id of the second employee is : " + i);
         System.out.println("The salary of second employee is : " + salary);
     }
-
 }
 public class construct {
     public static void main(String[] args) {
@@ -27,14 +26,11 @@ public class construct {
 
 // class CWH {
 //     CWH(String s, int b){
-
 //         System.out.println("This is the " +b+ "th video of "+ " "+ s);
 //     }
-
 // }
 // public class construct {
 //     public static void main(String[] args) {
 //         CWH obj1 = new CWH("CodeWithHarry Java Playlist",42);
-
 //     }
 // }
