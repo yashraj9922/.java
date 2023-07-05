@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class arrayWorking {
@@ -22,8 +23,14 @@ public class arrayWorking {
             marks[i] = sc.nextInt();
         }
         System.out.println();
+
+        //method 1 to print an array
         for(int j = 0; j<size; j++){
             System.out.println(+marks[j]);
         }
+        System.out.println();
+        
+        //method 2 to print an array
+        System.out.println(Arrays.toString(marks));
     }
 }
