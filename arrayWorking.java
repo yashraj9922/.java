@@ -29,8 +29,19 @@ public class arrayWorking {
             System.out.println(+marks[j]);
         }
         System.out.println();
-        
+
         //method 2 to print an array
         System.out.println(Arrays.toString(marks));
+
+
+        //decalaration and initialisation of an array, array of objects
+        String str[] = new String[size];
+        System.out.println("Enter the Names of Students ");
+        for(int a = 0; a<size; a++){
+            str[a] = sc.next();
+        }
+
+        System.out.println("Name of Students in Class ");
+        System.out.println(Arrays.toString(str));
     }
 }
