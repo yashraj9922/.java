@@ -39,3 +39,4 @@ public class swapArgumentsFalse{
 //in case of object => copy of value of reference variable is pass
 
 //object such as Arrays.....when we try to change or swap a element in an arrage we making change in object and not creating a new object
+//hence to swap values of primitive data types we need to create object and then pass value 
