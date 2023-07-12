@@ -15,7 +15,7 @@ public class varArgs{
         }
         func(arr);
     }
-    //when number of arguments to be passed into method is unknown
+    //when number of arguments to be passed into method is unknown use varArgs
     static void func(int ...v){
         System.out.println(Arrays.toString(v));
     }
