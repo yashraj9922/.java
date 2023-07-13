@@ -5,7 +5,6 @@ public class dynArrColnotFIX {
             {5,6},
             {7,9,0}
         };
-
         for(int row = 0; row < dynArr.length; row++){
             for(int col = 0; col < dynArr[row].length; col++){
                 System.out.print(dynArr[row][col]+" ");
@@ -13,5 +12,4 @@ public class dynArrColnotFIX {
             System.out.println();
         }
     }
-    
 }
