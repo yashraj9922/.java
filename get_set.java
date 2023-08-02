@@ -1,20 +1,20 @@
-class Employee{
+class Employee {
     private String name;
     private int id;
 
-    public void getName(String nme){
+    public void getName(String nme) {
         name = nme;
     }
 
-    public void getId(int n){
+    public void getId(int n) {
         id = n;
     }
 
-    public String printName(){
+    public String printName() {
         return name;
     }
-    
-    public int printId(){
+
+    public int printId() {
         return id;
     }
 

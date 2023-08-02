@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class returnString{
+public class returnString {
     public static void main(String[] args) {
         System.out.println("Enter your name ");
         Scanner inp = new Scanner(System.in);
@@ -9,9 +9,10 @@ public class returnString{
         String abc = greet(nme);
         System.out.println(abc);
     }
-    static String greet(String name){
 
-        String greeting = "How are u "+name+ "?";
+    static String greet(String name) {
+
+        String greeting = "How are u " + name + "?";
         return greeting;
     }
 }
