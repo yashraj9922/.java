@@ -15,7 +15,6 @@ public class array2dInput {
             for (int j = 0; j < columns; j++) {
                 System.out.println("Element with index [" + i + "," + j + "] is: ");
                 arr[i][j] = sc.nextInt();
-
             }
         }
         printArray(rows, columns, arr);
