@@ -1,3 +1,4 @@
+package learn_basics;
 class Employee {
     // private String name;
     // private int id;

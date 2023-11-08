@@ -1,3 +1,4 @@
+package learn_basics;
 public class dynArrColnotFIX {
     public static void main(String[] args) {
         int[][] dynArr = {

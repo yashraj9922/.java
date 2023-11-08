@@ -1,8 +1,8 @@
+package learn_basics;
 import java.util.Arrays;
 
 public class array2d {
     public static void main(String[] args) {
-        int [][]arr = new int[3][];
         int [][]arr2d = {{1},{4,3}};
 
         System.out.println(Arrays.toString(arr2d)); //will not give desiredoutput for multi dimensional array
