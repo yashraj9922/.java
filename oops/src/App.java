@@ -27,5 +27,25 @@ public class App {
         System.out.println(stud2.name);
         System.out.println(stud2.rollNo);
         // using this keyword
+
+        Student random = new Student(yashraj);
+        System.out.println(random.name);// this will print the name same as assigned in "yashraj" object
+    
+        Student defaultStudent = new Student();
+        defaultStudent.marks = 10;
+        System.out.println(defaultStudent.marks);
+        defaultStudent.name="default Student";
+        System.out.println(defaultStudent.name);
+
+        Student one = new Student();
+        Student two = one;
+
+        one.name = "i am one";
+        System.out.println(one.name);
+
+        two.name = "i am two now";
+        System.out.println(two.name);
+        System.out.println(one.name);
+
     }
 }

@@ -3,11 +3,11 @@ class Student {
     int rollNo;
     float marks;
 
-    Student() {
-        this.name = "Your-Name-Here";
-        this.rollNo = 0;
-        this.marks = 0.0f;
-    }
+    // Student() {
+    //     this.name = "Your-Name-Here";
+    //     this.rollNo = 0;
+    //     this.marks = 0.0f;
+    // }
 
     // Student(String name, int rollNo, float marks) {
     // rollNo = rollNo;
@@ -19,6 +19,17 @@ class Student {
         this.rollNo = rollN;
         this.name = firstName;
         this.marks = totalMarks;
+    }
+
+    Student(Student other) {
+        this.name = other.name;
+        this.rollNo = other.rollNo;
+        this.marks = other.marks;
+    }
+
+    Student(){
+        // this is how you call a constructor from another constructor
+        this("default", 123, 74);
     }
 
     void greeting() {
