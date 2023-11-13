@@ -14,11 +14,11 @@ public class App {
         yashraj.changeName("Yashraj");
         yashraj.greeting();
 
-        Student stud1 = new Student("Yash", 066, 99);
-        stud1.greeting();
-        System.out.println(stud1.marks);
-        System.out.println(stud1.name);
-        System.out.println(stud1.rollNo);
+        // Student stud1 = new Student("Yash", 066, 99);
+        // stud1.greeting();
+        // System.out.println(stud1.marks);
+        // System.out.println(stud1.name);
+        // System.out.println(stud1.rollNo);
         //without this keyword values remain default and did not change
 
         Student stud2 = new Student("Raj", 56, 98);

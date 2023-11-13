@@ -13,7 +13,7 @@ class Student {
     // rollNo = rollNo;
     // name = name;
     // marks = marks;
-    // } --> without this keyword values remain default and did not change
+    // } //--> without this keyword values remain default and did not change
 
     Student(String firstName, int rollN, float totalMarks) {
         this.rollNo = rollN;
