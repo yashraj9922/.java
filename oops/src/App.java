@@ -19,7 +19,7 @@ public class App {
         // System.out.println(stud1.marks);
         // System.out.println(stud1.name);
         // System.out.println(stud1.rollNo);
-        //without this keyword values remain default and did not change
+        // without this keyword values remain default and did not change
 
         Student stud2 = new Student("Raj", 56, 98);
         stud2.greeting();
@@ -30,11 +30,11 @@ public class App {
 
         Student random = new Student(yashraj);
         System.out.println(random.name);// this will print the name same as assigned in "yashraj" object
-    
+
         Student defaultStudent = new Student();
         defaultStudent.marks = 10;
         System.out.println(defaultStudent.marks);
-        defaultStudent.name="default Student";
+        defaultStudent.name = "default Student";
         System.out.println(defaultStudent.name);
 
         Student one = new Student();
