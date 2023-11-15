@@ -1,3 +1,4 @@
+package intro;
 class Student {
     String name;
     int rollNo;
