@@ -23,7 +23,7 @@ public class main {
 
     // non static method
     // as we know that static data is independent of any object....and something
-    // that is not static , belongs to an object
+    // that is not static , belongs to an object   
     // this belongs to an instance
     void greeting() {
         System.out.println("Hello World");
