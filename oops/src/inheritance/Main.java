@@ -10,5 +10,8 @@ public class Main {
 
         Box box2 = new Box(10, 20, 30);
         System.out.println(box2.l + " " + box2.h + " " + box2.w);
+
+        Box box3 = new Box(box2);
+        System.out.println(box3.l + " " + box3.h + " " + box3.w);
     } 
 }
