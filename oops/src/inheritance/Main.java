@@ -13,5 +13,11 @@ public class Main {
 
         Box box3 = new Box(box2);
         System.out.println(box3.l + " " + box3.h + " " + box3.w);
+
+        BoxWeight box4 = new BoxWeight();
+        System.out.println(box4.l + " " + box4.h + " " + box4.w + " " + box4.weight);
+
+        BoxWeight box5 = new BoxWeight(10, 20, 30, 40);
+        System.out.println(box5.l + " " + box5.h + " " + box5.w + " " + box5.weight);
     } 
 }
