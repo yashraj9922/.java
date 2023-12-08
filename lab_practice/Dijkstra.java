@@ -1,6 +1,7 @@
 // Purpose: Implementation of Dijkstra's algorithm for finding the shortest path from a source vertex to all other vertices in a graph.
 // Time Complexity: O(V^2)
 // Space Complexity: O(V)
+// V is the number of vertices in the graph.
 
 public class Dijkstra {
 

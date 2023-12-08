@@ -1,6 +1,7 @@
 // Longest Common Subsequence using Dynamic Programming
 // Time Complexity: O(mn)
 // Space Complexity: O(mn)
+// m and n are the lengths of the two strings.
 
 import java.util.*;
 

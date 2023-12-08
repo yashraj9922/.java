@@ -2,6 +2,7 @@
 // TIme Complexity: O(ElogE) or O(ElogV)
 // Space Complexity: O(E + V)
 // implemented using array of edges
+// E is the number of edges and V is the number of vertices in the graph.
 
 import java.util.*;
 

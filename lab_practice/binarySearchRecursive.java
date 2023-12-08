@@ -2,8 +2,6 @@
 // Time Complexity: O(logn)
 // Space Complexity: O(logn)
 
-import java.util.*;
-
 class BinarySearchRecursive {
     public static void main(String[] args) {
         int[] arr = { 1, 2, 3, 4, 5 };

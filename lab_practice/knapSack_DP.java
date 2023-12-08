@@ -1,6 +1,7 @@
 // Knapsack Problem using Dynamic Programming
 // Time Complexity: O(nW)
 // Space Complexity: O(nW)
+// n is the number of items and W is the capacity of knapsack.
 
 import java.util.*;
 
