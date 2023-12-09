@@ -14,7 +14,7 @@ public class BoxWeight extends Box {
         this.weight = weight;
 
         // this.weight --> refers to the weight variable present in this class
-        // super.weight --> refers to the weight variable present in the parent classv
+        // super.weight --> refers to the weight variable present in the parent class
 
     }
 }

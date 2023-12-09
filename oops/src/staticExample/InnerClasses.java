@@ -1,6 +1,6 @@
 package staticExample;
 
-//outside classes cannot be static...only inner classes can be static
+// outside classes cannot be static...only inner classes can be static
 // static public class InnerClasses{} .... ERROR
 public class InnerClasses {
     static class Test {
