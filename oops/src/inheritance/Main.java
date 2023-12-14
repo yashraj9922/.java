@@ -19,5 +19,21 @@ public class Main {
 
         BoxWeight box5 = new BoxWeight(10, 20, 30, 40);
         System.out.println(box5.l + " " + box5.h + " " + box5.w + " " + box5.weight);
-    } 
+
+        Box box6 = new BoxWeight(10, 20, 30, 40);
+        // System.out.println(box6.weight); --> It is actually the type of reference
+        // variable and not type of object that determines what members can be accessed
+        // weight is not a member of Box class it is a member of BoxWeight class
+
+        // there are many variables in both parent and child class
+        // you are given access to varibales that are in the ref. type i.e. BoxWeight
+        // hence you should have access to weight variable
+        // this also means, that the ones u are trying to access should be initialized
+        // but here, obj itself is of type parent class, how will u call the constructor
+        // of child class
+
+        // hence we got error
+        // BoxWeight box7 = new Box(2, 4, 6);
+
+    }
 }
