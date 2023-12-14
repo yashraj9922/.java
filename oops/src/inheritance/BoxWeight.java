@@ -9,8 +9,13 @@ public class BoxWeight extends Box {
     }
 
     public BoxWeight(double l, double h, double w, double weight) {
+        // System.out.println("Running the BoxWeight class constructor");
+
         super(l, h, w);// super keyword calls the parent class constructor
         // used to initialise values present in parent class
+        // constructor call must be the first statement in a constructor
+
+        System.out.println("Running the BoxWeight class constructor");
 
         this.weight = weight;
 
@@ -22,5 +27,10 @@ public class BoxWeight extends Box {
         System.out.println(super.w);// super keyword is used to refer to the parent object
         // w = 30.....initialised in parent class
 
+    }
+
+    BoxWeight(BoxWeight other){
+        super(other);// calls the copy constructor of parent class....Box type
+        this.weight = other.weight;
     }
 }

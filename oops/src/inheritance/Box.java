@@ -22,6 +22,7 @@ public class Box {
     }
 
     Box(double l, double h, double w) {
+        System.out.println("Running the Box class constructor");
         this.l = l;
         this.h = h;
         this.w = w;
