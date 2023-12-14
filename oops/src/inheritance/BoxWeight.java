@@ -33,4 +33,9 @@ public class BoxWeight extends Box {
         super(other);// calls the copy constructor of parent class....Box type
         this.weight = other.weight;
     }
+
+    BoxWeight(double side, double weight) {
+        super(side);// calls the parameterized constructor of parent class....Box type
+        this.weight = weight;
+    }
 }

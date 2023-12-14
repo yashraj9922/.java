@@ -34,6 +34,10 @@ public class Main {
 
         // hence we got error
         // BoxWeight box7 = new Box(2, 4, 6);
+        
+        System.out.println("................................");
+
+        BoxPrice box8 = new BoxPrice(); 
 
     }
 }
